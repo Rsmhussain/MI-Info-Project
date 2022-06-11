@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="info.testrunner.TestRunner" duration-ms="102445" started-at="2022-02-27T10:28:56Z" finished-at="2022-02-27T10:30:39Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:info.testrunner.TestRunner@159f197]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="102445" started-at="2022-02-27T10:28:56Z" finished-at="2022-02-27T10:30:39Z">
+      <class name="info.testrunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:info.testrunner.TestRunner@159f197]" name="setUpClass" is-config="true" duration-ms="568" started-at="2022-02-27T10:28:56Z" finished-at="2022-02-27T10:28:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:info.testrunner.TestRunner@159f197]" name="runScenario" duration-ms="45318" started-at="2022-02-27T10:28:57Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-27T10:29:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Verifying the update by individual details in Audit Log Screen for Late Scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify the Audit Log Details]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:info.testrunner.TestRunner@159f197]" name="runScenario" duration-ms="3527" started-at="2022-02-27T10:29:42Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-27T10:29:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Verifying the update by individual details in Audit Log Screen for Under Scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify the Audit Log Details]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:info.testrunner.TestRunner@159f197]" name="runScenario" duration-ms="3520" started-at="2022-02-27T10:29:46Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-27T10:29:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Verifying the update by individual details in Audit Log Screen for OT Scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify the Audit Log Details]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:info.testrunner.TestRunner@159f197]" name="runScenario" duration-ms="7585" started-at="2022-02-27T10:29:49Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-27T10:29:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Verifying the update by department details in Audit Log Screen for Late Scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify the Audit Log Details]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:info.testrunner.TestRunner@159f197]" name="runScenario" duration-ms="3475" started-at="2022-02-27T10:29:57Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-27T10:30:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Verifying the update by department details in Audit Log Screen for under Scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify the Audit Log Details]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:info.testrunner.TestRunner@159f197]" name="runScenario" duration-ms="3443" started-at="2022-02-27T10:30:00Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-27T10:30:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Verifying the update by department details in Audit Log Screen for OT Scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify the Audit Log Details]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:info.testrunner.TestRunner@159f197]" name="runScenario" duration-ms="7444" started-at="2022-02-27T10:30:04Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-27T10:30:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Verifying the update by branch details in Audit Log Screen for Late Scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify the Audit Log Details]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:info.testrunner.TestRunner@159f197]" name="runScenario" duration-ms="3438" started-at="2022-02-27T10:30:11Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-27T10:30:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Verifying the update by branch details in Audit Log Screen for under Scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify the Audit Log Details]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:info.testrunner.TestRunner@159f197]" name="runScenario" duration-ms="3397" started-at="2022-02-27T10:30:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-27T10:30:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Verifying the update by branch details in Audit Log Screen for OT Scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify the Audit Log Details]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:info.testrunner.TestRunner@159f197]" name="runScenario" duration-ms="13847" started-at="2022-02-27T10:30:18Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-27T10:30:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Verifying the update by section details in Audit Log Screen for update Scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify the Audit Log Details]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:info.testrunner.TestRunner@159f197]" name="runScenario" duration-ms="3382" started-at="2022-02-27T10:30:32Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-27T10:30:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Verifying the update by section details in Audit Log Screen for under Scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify the Audit Log Details]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:info.testrunner.TestRunner@159f197]" name="runScenario" duration-ms="3315" started-at="2022-02-27T10:30:35Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-27T10:30:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User Verifying the update by section details in Audit Log Screen for OT Scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify the Audit Log Details]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:info.testrunner.TestRunner@159f197]" name="tearDownClass" is-config="true" duration-ms="9" started-at="2022-02-27T10:30:39Z" finished-at="2022-02-27T10:30:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- info.testrunner.TestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- info.testrunner.TestRunner -->
+</testng-results>
